@@ -7,14 +7,14 @@
 */
 int main(void)
 {
-int x;
-x = 97;
+	int x;
+	x = 97;
 
-while (x <= 122)
+	while (x <= 122)
 	{
-	putchar(x);
-	x++;
+		putchar(x);
+		x++;
 	}
-putchar('\n');
-return (0);
+	putchar('\n');
+	return (0);
 }

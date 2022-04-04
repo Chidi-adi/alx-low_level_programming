@@ -8,21 +8,21 @@
 */
 int main(void)
 {
-int x = 48;
-int y = 97;
+	int x = 48;
+	int y = 97;
 
-while (x <= 57)
-{
-putchar(x);
-x++;
-}
+	while (x <= 57)
+	{
+		putchar(x);
+		x++;
+	}
 
-while (y <= 102)
-{
-putchar(y);
-y++;
-}
+	while (y <= 102)
+	{
+		putchar(y);
+		y++;
+	}
 
-putchar('\n');
-return (0);
+	putchar('\n');
+	return (0);
 }

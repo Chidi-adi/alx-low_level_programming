@@ -31,37 +31,25 @@ if (op1 < op2)
 {
 putchar(a);
 putchar(b);
-  
- 
-  
-                       putchar(' ');
-                                 putchar(c);
-                                 putchar(d);
-                                     if (a == 57 && b ==56 && c == 57 && d == 57)
+putchar(' ');
+putchar(c);
+putchar(d);
+if (a == 57 && b ==56 && c == 57 && d == 57)
+{
+break;
+}
+putchar(',');
+putchar(' ');
+}
 
-                                     {
+}
 
-                                       
-                                         break;
+}
 
-                                     }
+}
 
-                                 putchar(',');
+}
 
-                                 putchar(' ');
-
-                             }
-
-                         }
-
-                 }
-
-             }
-
-        }
-
-    putchar('\n');
-
+putchar('\n');
 return (0);
-
 }

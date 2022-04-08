@@ -1,8 +1,8 @@
 #include <unistd.h>
 /**
- * main - printing without printf nor puts function
+ * main - Entry point
  *
- * return - Always 1
+ * return - Always 1 (success)
  *
  */
 int main(void)

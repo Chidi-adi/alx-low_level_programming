@@ -10,7 +10,7 @@ int main(void)
 	int x, y;
 
 	x = 97;
-	y= 65;
+	y = 65;
 
 	while (x <= 122)
 	{

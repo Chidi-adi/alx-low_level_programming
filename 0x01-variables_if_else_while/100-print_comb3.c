@@ -12,7 +12,7 @@ while (x <= 57)
 {
 int y = 48;
 
-while(y <= 57)
+while (y <= 57)
 {
 if (x != y && x < y)
 {
@@ -27,7 +27,7 @@ putchar(' ');
 }
 y++;
 }
-x++;  
+x++;
 }
 putchar('\n');
 return (0);

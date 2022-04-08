@@ -1,10 +1,10 @@
 #include <unistd.h>
-/**main - printing without printf nor puts function
+/**
+ * main - printing without printf nor puts function
  *
- * return 1
+ * return - Always 1
  *
  */
-
 int main(void)
 {
 	char str[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";

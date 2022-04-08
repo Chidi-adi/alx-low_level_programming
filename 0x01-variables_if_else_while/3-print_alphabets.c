@@ -8,16 +8,17 @@
 int main(void)
 {
 	int x, y;
+
 	x = 97;
 	y= 65;
 
-	while(x<=122)
+	while (x <= 122)
 	{
 	putchar(x);
 	x++;
 	}
 
-	while(y<=90)
+	while (y <= 90)
 	{
 	putchar(y);
 	y++;

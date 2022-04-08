@@ -10,19 +10,19 @@ int main(void)
 int a, b, c, d, op1, op2;
 a = 48;
 
-for (a; a <= 57; a++)
+while (a <= 57)
 {
 b = 48;
 
-for (b; b <= 57; b++)
+while (b <= 57)
 {
 c = 48;
 
-for (c; c <= 57; c++)
+while (c <= 57)
 {
 d = 48;
 
-for (d; d <= 57; d++)
+while (d <= 57)
 {
 op1 = a * 10 + b;
 op2 = c * 10 + d;
@@ -40,14 +40,15 @@ break;
 }
 putchar(',');
 putchar(' ');
-}
 
 }
-
+d++;
 }
-
+c++;
 }
-
+b++;
+}
+a++;
 }
 
 putchar('\n');

@@ -26,7 +26,6 @@ while (d <= 57)
 {
 op1 = a * 10 + b;
 op2 = c * 10 + d;
-
 if (op1 < op2)
 {
 putchar(a);
@@ -34,13 +33,12 @@ putchar(b);
 putchar(' ');
 putchar(c);
 putchar(d);
-if (a == 57 && b ==56 && c == 57 && d == 57)
+if (a == 57 && b == 56 && c == 57 && d == 57)
 {
 break;
 }
 putchar(',');
 putchar(' ');
-
 }
 d++;
 }
@@ -50,7 +48,6 @@ b++;
 }
 a++;
 }
-
 putchar('\n');
 return (0);
 }

@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 /**
 * main - Entry point
 *
@@ -13,15 +12,12 @@ a = 48;
 while (a <= 57)
 {
 b = 48;
-
 while (b <= 57)
 {
 c = 48;
-
 while (c <= 57)
 {
 d = 48;
-
 while (d <= 57)
 {
 op1 = a * 10 + b;

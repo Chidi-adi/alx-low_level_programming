@@ -16,5 +16,5 @@ putchar(i[j]);
 j++;
 }
 putchar ('\n');
-return (0);    
+return (0);
 }

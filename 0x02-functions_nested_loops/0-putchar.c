@@ -1,4 +1,5 @@
-#includ"main.h"
+#include "main.h"
+#include <stdio.h>
 
 /**
  * main - Prints _putchar as a message
@@ -11,7 +12,7 @@ int main(void)
     int j = 0;
     while (j < 8)
     {
-        _putchar(i[j]);
+        putchar(i[j]);
         j++;
     }
     

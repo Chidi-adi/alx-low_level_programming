@@ -15,5 +15,6 @@ int main(void)
         putchar(i[j]);
         j++;
     }
+    return (0);
     
 }

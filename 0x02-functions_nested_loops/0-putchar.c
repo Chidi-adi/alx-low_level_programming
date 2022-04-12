@@ -1,8 +1,21 @@
-#include "main.h"
+##include main.h"
 
-int main (void)
+/**
+ * main - Prints _putchar as a message.
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
-	int c = 5;
-	_putchar(c);
-	return(0);
+    char ch[] = {95, 112, 117, 116, 99, 104, 97, 114};
+    int i;
+    i = 0;
+    
+    for (i; i <= 7; i++)
+    {
+    _putchar(ch[i]);
+    }
+    
+    putchar('\n');
+    return (0);
 }

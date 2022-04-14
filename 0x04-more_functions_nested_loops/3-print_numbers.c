@@ -1,20 +1,19 @@
- /*
- * File: 3-print_numbers.c 
+/*
+ * File: 3-print_numbers.c
  * Auth: Chidiadi Nwosu
  */
 
 #include "main.h"
 
 /**
- * print_numbers - Prints numbers from 0 to 9.
+ * print_numbers - Prints the numbers from 0-9.
  */
 void print_numbers(void)
 {
-	int a;
+	int num;
 
-	for (a = 48; a <= 57; a++)
-	{
-		_putchar(a);
-	}
-	_putchar('\n'); 
+	for (num = 0; num <= 9; num++)
+		_putchar((num % 10) + '0');
+
+	_putchar('\n');
 }

@@ -1,12 +1,12 @@
  /*
- * File: 0-isupper.c
+ * File: 2-mul.c
  * Auth: Chidiadi Nwosu
  */
 
 #include "main.h"
 
 /**
- * mul - multiplies two integers..
+ * mul - multiplies two integers.
  * @a, @b: The characters to be multiplied.
  *
  * Return: a * b.

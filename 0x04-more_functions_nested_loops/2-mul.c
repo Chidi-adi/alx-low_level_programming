@@ -7,11 +7,12 @@
 
 /**
  * mul - multiplies two integers.
- * @a, @b: The characters to be multiplied.
+ * @a: first integer to be multiplied.
+ * @b: second integer to be multiplied.
  *
- * Return: a * b.
+ * Return: result of multiplication.
  */
 int mul(int a, int b)
 {
-		return (a * b);
+	return (a * b);
 }
